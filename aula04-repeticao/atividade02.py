@@ -1,7 +1,7 @@
 def validar_nota(nota):
     while nota < 0 or nota > 10:
-        print("Nota invalida")
-        nota = float(input("Digite a Nota novamente: "))
+        nota = float(input("Nota invalida, Digite novamente: "))
+
     return nota
 
 nota_a = float(input("Digite a Primeira Nota: "))
