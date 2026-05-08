@@ -9,6 +9,8 @@ print()
 print("Possiveis Duplas:")
 print()
 
-for i in range(4):
-    for j in range(i + 1,4):
+for i in range(len(nomes)):
+    for j in range(i + 1, len(nomes)):
         print(f"{nomes[i]} e {nomes[j]}")
+
+# len = quantidade de variaveis
